@@ -3,4 +3,15 @@ pyTelegramBotAPI
 user_agent
 Pyjwt
 requests_toolbelt
+faker
+threading
+json
+random 
+datetime
+timedelta
+process
+re
+os
 
+time
+string
