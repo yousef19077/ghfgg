@@ -14,7 +14,21 @@ import threading
 stopuser = {}
 token = '7977702008:AAF5NvzjKdYhoV7Z2zo3L2XMQW6JFFABrdE'
 bot=telebot.TeleBot(token,parse_mode="HTML")
-admin=6309252183
+admins = [6309252183, 7137477686, 9876543210]  # Add more admin IDs here
+
+# Checking if the user is an admin
+def is_admin(user_id):
+    return user_id in admins
+
+# Example of how to check for admin before running a command
+@bot.message_handler(commands=['adduser'])
+def add_user(message):
+    if is_admin(message.from_user.id):
+        # Add user logic here
+        bot.reply_to(message, "User added successfully.")
+    else:
+        bot.reply_to(message, "You are not authorized to perform this action.")
+
 f = Faker()
 name = f.name()
 street = f.address()
