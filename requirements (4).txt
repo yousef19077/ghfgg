@@ -1,0 +1,6 @@
+requests
+pyTelegramBotAPI
+user_agent
+Pyjwt
+requests_toolbelt
+
